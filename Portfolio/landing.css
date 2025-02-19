@@ -1,0 +1,245 @@
+*{
+    font-family: 'Martel Sans', sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    margin-left: 2vh;
+}
+
+.navbar button {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 35px;
+    border: solid white 1px;
+    cursor: pointer;
+    margin-right: 8vh;
+    font-size: 12px;
+}
+.navbar a:hover{
+    color: #f4fdff;
+}
+
+.navbar-scrolled {
+    background-color: #192841; 
+  }
+
+.custom-button:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar button{
+        padding: 5px 10px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .navbar button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .navbar button{
+        padding: 5px 10px;
+        font-size: 7px;
+    }
+}
+/* Parallax */
+.homeparallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.parallax { 
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.contentparallax {
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+.title{
+    font-size: 6vh;
+    font-weight: 600;
+}
+.subtitle{
+    font-size: 3.7vh;
+    margin-bottom: 20px;
+}
+
+/* Journey */
+@media only screen and (min-width: 1200px) {
+    .journey{
+        width: 70%;
+    }
+}
+.jtitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    margin-top: 80px;
+}
+.intro{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+@media only screen and (min-width: 1200px) {
+    .content{
+        width: 60%;
+    }
+}
+.rounded-square {
+    border-radius: 15px; 
+    overflow: hidden;
+}
+@media only screen and (min-width: 1200px) {
+    .rounded-square{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .rounded-square{
+        width: 100%;
+    }
+}
+.va{
+    font-weight: lighter;
+    font-size: 15px;
+    color: gray;
+}
+.exp:hover{
+    color: rgb(71, 71, 255);
+}
+.exp{
+    color: rgb(38, 38, 251);
+    text-decoration: none;
+    font-size: 30px;   
+    font-weight: bold;
+}
+.job{
+    color: #6aa933;
+}
+.bold{
+    font-weight: bold;
+    color: rgb(66, 66, 66);
+}
+.insta:hover{
+    color: rgb(71, 71, 255);
+}
+.insta{
+    text-decoration: none;
+    font-weight: bold;
+}
+#insta_logo:hover{
+    color: #FD1D1D;
+}
+
+/* Footer */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#contact{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 9vh;
+    font-weight: bold;
+}
+.send{
+    float: right;
+    color: white;
+    background-color: black;
+    padding: 7px 40px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+}
+.send:hover{
+    background-color: rgb(181, 181, 181);
+    border: 1px solid black;
+    color: black;
+    transition: delay 2s;
+    font-size: 15px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.form-control{
+    border: solid 1px black;
+}
+.form-control:hover{
+    border: solid 1px black;
+    background-color: rgb(240, 240, 240);
+}
+.bi{
+    font-size: 25px;
+    margin-left: 15px;
+    color: black;
+}
+.bi:hover{
+    color: rgb(71, 71, 255);
+}
+.copyright {
+    background-color: #192841;
+    color: #ffffff; 
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}   
+
+footer p {
+    margin-bottom: 0;
+}
