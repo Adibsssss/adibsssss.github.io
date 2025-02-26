@@ -1,0 +1,102 @@
+{
+  "courses": [ 
+    { 
+      "year_level": "1st", 
+      "sem": "1st", 
+      "code": "IT111", 
+      "description": "Introduction to Computing", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "1st", 
+      "sem": "1st", 
+      "code": "IT112", 
+      "description": "Computer Programming 1", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "1st", 
+      "sem": "2nd", 
+      "code": "IT121", 
+      "description": "Computer Programming 2", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "1st", 
+      "sem": "2nd", 
+      "code": "IT122", 
+      "description": "Data Structures and Algorithms", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "1st", 
+      "sem": "2nd", 
+      "code": "IT123", 
+      "description": "Discrete Mathematics", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "2nd", 
+      "sem": "1st", 
+      "code": "IT211", 
+      "description": "Intro to Human Computer Interaction", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "2nd", 
+      "sem": "1st", 
+      "code": "IT212", 
+      "description": "Fundamentals of Database Systems", 
+      "credit": "3.0" 
+    }, 
+    { 
+      "year_level": "2nd", 
+      "sem": "1st", 
+      "code": "IT213", 
+      "description": "Platform Technologies", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "1st", 
+      "code": "IT214", 
+      "description": "Object Oriented Programming", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "1st", 
+      "code": "IT215", 
+      "description": "Accounting Principles", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "2nd", 
+      "code": "IT221", 
+      "description": "Information Management", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "2nd", 
+      "code": "IT222", 
+      "description": "Networking 1", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "2nd", 
+      "code": "IT223", 
+      "description": "Web Systems and Technolgies", 
+      "credit": "3.0" 
+    },
+    { 
+      "year_level": "2nd", 
+      "sem": "2nd", 
+      "code": "IT224", 
+      "description": "Systems Integration and Architecture", 
+      "credit": "3.0" 
+    }
+  ] 
+} 
