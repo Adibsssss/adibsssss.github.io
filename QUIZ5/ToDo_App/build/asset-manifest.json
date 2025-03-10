@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/adibsssss.github.io/static/css/main.bedd15e2.css",
-    "main.js": "/adibsssss.github.io/static/js/main.7311949d.js",
-    "index.html": "/adibsssss.github.io/index.html",
-    "main.bedd15e2.css.map": "/adibsssss.github.io/static/css/main.bedd15e2.css.map",
-    "main.7311949d.js.map": "/adibsssss.github.io/static/js/main.7311949d.js.map"
+    "main.css": "/todo_app/static/css/main.bedd15e2.css",
+    "main.js": "/todo_app/static/js/main.7311949d.js",
+    "index.html": "/todo_app/index.html",
+    "main.bedd15e2.css.map": "/todo_app/static/css/main.bedd15e2.css.map",
+    "main.7311949d.js.map": "/todo_app/static/js/main.7311949d.js.map"
   },
   "entrypoints": [
     "static/css/main.bedd15e2.css",

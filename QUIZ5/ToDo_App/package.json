@@ -1,16 +1,16 @@
 {
+  "homepage": "https://adibsssss.github.io/todo_app/",
   "name": "npm",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adibsssss.github.io/adibsssss.github.io",
   "scripts": {
     "dev": "vite",
     "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
