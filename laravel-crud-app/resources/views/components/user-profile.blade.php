@@ -1,0 +1,1 @@
+<img src="{{ asset(path:'image/me.jpg') }}" alt="Profile_pic" class="h-9 w-auto rounded-full" />
